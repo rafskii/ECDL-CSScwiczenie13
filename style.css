@@ -1,0 +1,65 @@
+html, body {
+	background-image: url(pattern.jpg);
+	color: #ffffff;
+	margin-top: 10px;
+	font-family: Arial, sans-serif;
+}
+
+div#strona {
+	width:800px;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: #06094d;
+}
+
+div#naglowek {
+	height: 100px;
+	padding: 10px;
+	color: #000000;
+	background-color: #ff8040;
+}
+
+div#menu {
+	width: 150px;
+	float: left;
+	overflow: hidden;
+	padding: 10px;
+	background-color:#408080;
+}
+
+div#menu2 {
+	width: 150px;
+	float: right;
+	overflow: hidden;
+	padding: 10px;
+	background-color:#408080;
+}
+
+div#ankieta {
+	width: 150px;
+	float: right;
+	overflow: hidden;
+	padding: 10px;
+	background-color:#408080;
+	clear:both;
+}
+
+form {
+background-color: #ff8040;
+}
+
+div#zawartosc {
+	overflow: hidden;
+	padding: 10px;
+	background-color: #800000;
+}
+
+div#stopka {
+padding:10px;
+background-color: #ff8040;
+clear:both;
+}
+
+div#menu ul , div#ankieta ul , div#menu2 ul {
+list-style-type: none;
+}
